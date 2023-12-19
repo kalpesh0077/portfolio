@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title> Personsal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/18e4ce8198.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>   
+            <img src= "image/Logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer <br>   </p>
+            <h1>Hi, I'm <span>Kalpesh Pathode</span> <br>From India</h1>
+            
+        </div>
+        </div>
+    </div>
+
+<!------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/Portrait.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> this is about me, who grew up in a small town and showed an 
+                    early interest in computers and technology. 
+                    They pursued a degree in computer science and
+                     graduated with honors. After university, 
+                    Alex landed a job at a renowned tech company and quickly rose through 
+                    the ranks due to their exceptional coding skills and problem-solving abilities.
+                    In their free time, Alex enjoys attending tech conferences, 
+                    reading science fiction novels, and exploring new coding languages and frameworks. 
+                    They also participate in hackathons and other programming competitions to challenge 
+                    themselves and stay updated with the latest trends in the tech industry.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+                        <li><span>App Devlopment</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experiance">
+                    <ul>
+                        <li><span>2021</span><br> Passout 12th with 94% </li>
+                        <li><span>2021</span><br>Scored 90%tile in CET</li>
+                        <li><span>2023-current</span><br>Artificial intelligence and data Science Engineering </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018</span><br>passout 10th with 84%</li>
+                        <li><span>2010-2018</span><br>schooling from Christanand school </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------Services-------------------------------->
+<div id="services"> 
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">  
+            <div>
+                <i class="fa-solid fa-code" style="color: #fff;"></i>
+                <h2>Web Design</h2>
+                <p> this is my servies page </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple" style="color: #fff;"></i>
+                <h2>UI Design</h2>
+                <p> this is my servies page </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios" style="color: #fff;"></i>
+                <h2>App Design</h2>
+                <p> this is my servies page </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>    
+    </div>
+</div>
+<!---------------------portfolio---------------------->
+<div id="portfolio"></div>
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> The app connects you ti the talented people around the world.
+                        download it from play store.</p>
+                    <a href="#"></a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p> The app connects you ti the talented people around the world.
+                        download it from play store.</p>
+                    <a href="#"></a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p> The app connects you ti the talented people around the world.
+                        download it from play store.</p>
+                    <a href="#"></a> 
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+<!---------------Contact form------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <i class="fa-solid fa-envelope" style="color: #f7f7f8;"></i><p>kalpeshpahtode007@gmail.com</p>
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i><p>8668972118</p>
+                
+
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" row="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Kalpesh, made by Kalpesh Pathode</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
